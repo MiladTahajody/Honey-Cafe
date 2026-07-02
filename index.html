@@ -118,7 +118,7 @@
         .subtext {
         font-size: 22px;
         font-weight: 600;
-        font-family: "en", sans-serif;
+        font-family: "fr", sans-serif;
         color: rgb(176, 0, 0);
         }
 
@@ -172,6 +172,12 @@
             margin-top: 8px;
             cursor: pointer;
             transition: opacity 0.2s ease;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .error-btn:hover {
+            opacity: 0.85;
         }
 
         .error-btn:hover {
@@ -199,7 +205,8 @@
     <div id="loader">
      <img src="/logo.svg" class="logo" alt="Honey Café">
      <div class="text">Honey Café</div>
-     <div class="subtext">Membership Expired</div>
+     <div class="subtext">عضویت شما منقضی شده</div>
+     <a class="error-btn" href="https://t.me/milad_tahajody">پشتیبانی تلگرام</a>
 
     </div>
 
